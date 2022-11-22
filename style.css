@@ -1,0 +1,354 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (min-width: 1200px) {
+
+    section {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        scroll-snap-align: start;
+    }
+    
+    .container {
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        height: 100vh;
+    }
+    
+    .issue_6 , .issue_5 , .issue_4 , .issue_3 , .issue_2 ,.issue_1 {
+        width: 420px;
+    }
+    
+    #s2 {
+        background: #1D3FBB;
+    }
+    
+    #s3 {
+        background: #FFBE00;
+    }
+    
+    #s4 {
+        background: #FF6519;
+    }
+    
+    #s5 {
+        background: #00C1B5;
+    }
+    
+    #s1 {
+        background: #E30512;
+    }
+    
+    .logo {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 260px;
+        height: auto;
+    }
+    
+    .mail {
+        position: absolute;
+        top: 20px;
+        right: 15px;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 25px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .mail:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .issues {
+        position: absolute;
+        bottom: 20px;
+        right: 15px;
+        text-align: right;
+        list-style: none;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    
+    .nav {
+        position: absolute;
+        bottom: 20px;
+        left: 15px;
+        width: 320px;
+    }
+    
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .copyright {
+        font-size: 12px;
+        font-weight: normal;
+        margin-bottom: 30px;
+    }
+    
+    .PP {
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    .PP:hover {
+        text-decoration: none;
+    }
+    
+    .issues a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .issues a:hover {
+        text-decoration: underline;
+    }
+    
+    
+    .buyHere {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 17px;
+    }
+    
+    .buyHere a {
+        text-decoration: none;
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: bold;
+    }
+    
+    .selectedStores {
+        display: flex;
+        gap: 5px;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 22px;
+    
+    }
+    
+    .selectedStores a {
+        text-decoration: none;
+    }
+    
+    .issue-1-decoration {
+        color: #e568ac;
+        text-decoration: none;
+    }
+    
+    .issue-1-decoration:hover {
+        text-decoration: underline;
+    }
+    
+    
+    .other-issue-decoration {
+        color: white;
+    }
+    
+    .other-issue-decoration:hover {
+        text-decoration: underline;
+    }
+    
+    .sectionForMobile {
+        display:none;
+    }
+    
+    .navForMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    section {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        scroll-snap-align: start;
+    }
+    
+    .container {
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        height: 100vh;
+    }
+    
+    .issue_6 , .issue_5 , .issue_4 , .issue_3 , .issue_2 ,.issue_1 {
+        width: 420px;
+    }
+    
+    #s2 {
+        background: #1D3FBB;
+    }
+    
+    #s3 {
+        background: #FFBE00;
+    }
+    
+    #s4 {
+        background: #FF6519;
+    }
+    
+    #s5 {
+        background: #00C1B5;
+    }
+    
+    #s1 {
+        background: #E30512;
+    }
+    
+    .logo {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 260px;
+        height: auto;
+    }
+    
+    .mail {
+        display: none;
+    }
+
+    .issues {
+        display: none;
+    }
+    
+    .nav {
+        display: none;
+    }
+    
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .copyright {
+        font-size: 12px;
+        font-weight: normal;
+        margin-bottom: 30px;
+    }
+    
+    .PP {
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    .PP:hover {
+        text-decoration: none;
+    }
+    
+    .issues a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .issues a:hover {
+        text-decoration: underline;
+    }
+    
+    
+    .buyHere {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 17px;
+    }
+    
+    .buyHere a {
+        text-decoration: none;
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: bold;
+    }
+    
+    .selectedStores {
+        display: flex;
+        gap: 5px;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 22px;
+    
+    }
+    
+    .selectedStores a {
+        text-decoration: none;
+    }
+    
+    .issue-1-decoration {
+        color: #e568ac;
+        text-decoration: none;
+    }
+    
+    .issue-1-decoration:hover {
+        text-decoration: underline;
+    }
+    
+    
+    .other-issue-decoration {
+        color: white;
+    }
+    
+    .other-issue-decoration:hover {
+        text-decoration: underline;
+    }
+    
+    
+    .navForMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .mailMobile {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 25px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .mailMobile:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .sectionForMobile {
+        background: #E30512;
+    }
+
+}

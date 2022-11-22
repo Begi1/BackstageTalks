@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.logo {
+    width: 260px; 
+    height: auto;
+    margin: 20px;
+   
+}
+
+h2 {
+    width: 400px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 375px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 140%;
+}
+
+p {
+    width: 920px;
+    height: auto;
+    font-family: 'Roboto@100', sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 15px;
+}
+
+h4 {
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    margin-top: 15px;
+    font-family: 'Roboto@100', sans-serif;
+    font-size: 14px;
+}
+
+ul li a {
+    color: black;
+    color: inherit;
+}
+
+ul li a:hover , ul li a:active , ul li a:focus {
+    color: inherit;
+}
+
+
+.pElements {
+    margin-top: 40px;
+    margin-left: 375px;
+    margin-bottom: 50px;
+}
+
+.lasObject {
+    margin-bottom: 50px;
+    margin-left: 375px;
+}
