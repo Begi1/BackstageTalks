@@ -189,12 +189,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        scroll-snap-align: start;
     }
     
     .container {
-        scroll-snap-type: y mandatory;
-        overflow-y: scroll;
         scrollbar-width: none;
         height: 100vh;
     }
